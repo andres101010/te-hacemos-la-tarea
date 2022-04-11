@@ -1,0 +1,306 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   background-color: rgb(0, 0, 0, 0.5);
+   text-align: center;
+}
+
+.contenido{
+    margin: 3px;
+}
+.caja{
+    display: table-cell;
+    padding: 10px;
+}
+#nosotros{
+    text-align: center;
+    font-size: 50px;
+    color: white;
+}
+.container{
+    background: url(/imagenes/imagen\ 3.jpg) center no-repeat;
+    background-size: 100%;
+    height: 70vh;
+
+}
+h1{
+    color: black;
+    text-align: center;
+    font-size: 400%;
+    padding-top: 7%;
+    margin: 0%;
+}
+nav{
+    text-align: center;
+     font-size: 25px;    
+    margin-top: 5%;
+}
+a{
+    text-decoration: none;
+    margin: 30px;
+    
+}
+a:hover{
+    color:darkgreen;
+}
+#nosotros{
+    padding-top: 5%;
+}
+#inicio{
+    column-count: 2;
+}
+.caja:nth-child(1) h2{
+   color: white; 
+   text-align: center;
+   font-size: 25px;
+   padding-top: 10%;
+   border-bottom: 1px solid #ccc;
+}
+.caja:nth-child(2) h2{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    border-bottom: 1px solid #ccc;
+    
+}
+p{
+    color: white;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#img7{
+    width: 100%;
+    
+}
+#img6{
+    width: 100%;
+    
+}
+h2{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    font-family: cursive;
+    padding-top: 5%;
+    margin-bottom: 10%;
+    text-transform: uppercase;
+    border-bottom: 1px solid #ccc;
+}
+h3{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+.text-pdf{
+    font-size: 30px;
+    display: inline-block;
+    position: relative;
+    text-transform: uppercase;
+    
+}
+.text-pdf::after, .text-pdf::before{
+    content: "";
+    position: absolute;
+    width: 120px;
+    height: 3px;
+    background-color: white;
+    bottom: 1px;
+    
+}
+.text-pdf::before{
+    left: -140px;
+}
+.text-pdf::after{
+    right: -140px;
+}
+.text-form{
+    font-size: 30px;
+    display: inline-block;
+    position: relative;
+    text-transform: uppercase;
+}
+
+
+.icon-1{
+    width: 350px;
+    display: block;
+    margin: auto;
+   
+}
+.pdf{
+    background-color:darkred;
+    text-align: center;
+    margin-top: 40px;
+}
+.pdf p{
+    font-size: 20px;
+    letter-spacing: 5px;
+}
+
+.form{
+    background-color: black;
+    text-align: center;
+    margin: 50px 100px;
+}
+.acerca-de{
+    width: 80%;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.money{
+    margin-top: 10%;
+    width: 70%;
+    height: 100%;
+    border-bottom: 1px solid #ccc;
+}
+.title-form{
+    color: white;
+    padding: 0%;
+    
+}
+footer{
+    background-color: black;
+   padding: 60px 0 30px 0;
+   margin: auto;
+   overflow: hidden;
+}
+.contenedor-footer{
+    display: flex;
+    width: 90%;
+    height: 90px;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #ccc;
+}
+.conten-foo{
+    text-align: center;
+}
+.conten-foo h4{
+    color: #ccc;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    border-bottom: 3px solid #af20a3;
+}
+.conten-foo p{
+    color: #ccc;
+}
+.titulo-final{
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0 0 0;
+    color: #9e9797;
+}
+.botom-name{
+   display: block;
+   margin: auto;
+   width: 900px;
+
+
+}
+#Ascesoria{
+    
+}
+.ascesoria{
+flex-direction: column;  
+  
+background: url(/imagenes/imagen\ 6.jpg);
+}
+.ascesoria p{
+    font-size: 40px;
+    text-transform: uppercase;
+}
+#bodySearchForm{
+    font-size: 30px;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+@media  (max-width: 767px) {
+    
+    *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        
+    }
+
+    header{
+        width: 100%;
+    }
+    .container{
+        width: 100%;
+       
+    }
+    h1{
+        font-size: 50px;
+        color: white;
+    }
+    header{
+        display: flex;
+    }
+    .container{
+        display: block;
+    }
+    header .container nav{
+        width: 100%;
+        height: 100%;
+      
+        background:url(/imagenes/imagen\ 5.jpg) center no-repeat;
+        padding: auto;
+        display: flex;
+        flex-direction: column;
+        transition: all 0.4s ease;
+    }
+    a{
+        font-size: 20px;
+        color: #af20a3;
+    
+    }
+    #inicio{
+        width: 100%;
+        
+    }
+    #nosotros{
+        margin-top: 50%;
+    }
+    .content{
+        display: flex;
+        flex-direction: column;
+    }
+    .subetutarea{
+        display:block;
+    }
+    .icon-1{
+        width: 40%;
+    }
+    .pdf p{
+        
+        display:flex;
+        flex-direction: column;
+        justify-content:center;
+    }
+    input[type=file]{
+        
+        margin-top: 5px;
+        margin-left: 120px;
+        font-size: 20px;
+        flex-direction: column;
+        
+    }
+    input[type=submit]{
+        background-colo: white;
+        margin-top: 20px;
+        padding-top: 4px;
+        margin-bottom: 4px;
+    }
+    .form{
+        display: flex;
+        justify-content: center;
+        background: none;
+        
+    }
+}

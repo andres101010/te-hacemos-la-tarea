@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/58ac1cfee0.js" crossorigin="anonymous"></script>
+    
+    <title>Te hacemos la tarea</title>
+</head>
+<body>
+    <header>
+        
+     
+     <div class="container">
+        <h1>Te hacemos la tarea</h1>
+    <nav><a href="#Inicio">Inicio</a>||
+         <a href="#Sube tu tarea">Sube tu tarea</a>||
+         <a href="#Formulario">Formulario</a>||
+         <a href="#Ascesoria">Ascesoria</a>
+    </nav>
+    
+    </div>
+    </header>
+    <section id="Inicio">
+     <h2 id="nosotros">Acerca de nosotros</h2>
+     
+      <div class="content">
+          <div class="caja">
+              <h2>De que se trata?</h2>
+              <p><strong>Te hacemos la tarea</strong> es una pagina destinada a dar ascesoria a alumnos de colegios secundaios
+            y alumnos de universidades, tambien tenemos el servicio disponible <strong> ¡Sube tu tarea!</strong> donde podras tener resuelta
+        tus tareas en un corto tiempo, contamos con varios ascesores y profesores para que obtengas el mejor resultado en tu calificacion.</p>
+        <img class="acerca-de" src="/imagenes/undraw_profile_details_re_ch9r.svg" alt="">
+          </div>
+          <div class="caja">
+              <h2>Se paga?</h2>
+              <p>El servicio recibido en <strong>Te hacemos la tarea</strong> tiene un bajo precio por los servicios recibidos
+            asegurandote asi el mejor resultado en tus calificaciones. para mas informacion de los precios comunicate 
+        a los datos que se encuentran en el pie de la pagina.</p>
+        <img class="money" src="/botones/Online payment_Two Color.png" alt="">
+          </div>
+      </div>
+         
+            
+    
+    </section>
+    <section id="Sube tu tarea" class="subetutarea">
+     <h2 class="text-pdf">Sube tu tarea</h2>
+        <img class="icon-1" src="/botones/expediente.png" alt="expediente.png">
+        <form class="pdf" action="mailto:selenarioscoca@gmail.com" method="post" enctype="multipart/form-data" target="_blank">
+        
+            <p>
+        
+                Subir un documento:
+        
+                <input type="file" name="documentosubido" accept="application/pdf, .doc, .docx, .odf">
+        
+                <input type="submit" value="Enviar datos">
+        
+            </p>
+        
+        </form>
+     
+    </section>
+    <section id="Formulario">
+     <h2 class="text-form">Completa el formulario !!</h2>
+     <h3>completa tus datos para que podamos mandarte toda la informacion requeria!</h3>
+     
+    <form class="form" action="mailto:selenarioscoca@gmail.com">
+        <fieldset>
+            <legend>
+                <h1 class="title-form">formulario</h1>
+            </legend>
+            <p>
+                <label for="Nombre">Nombre de usurio:</label><br>
+                <input type="text" id="Nombre" placeholder="Ej: Luis" sice="50px" minlength="3" maxlength="30" required>
+            </p>
+            <p>
+                <label for="Email">Email:</label><br>
+                <input type="text" id="Email" placeholder="Ej:Luis@gmail.com" sice="50px" minlength="3" maxlength="30"
+                    required>
+            </p>
+            <p>
+                <label for="Edad">Edad:</label><br>
+                <input type="number" id="Edad" placeholder="Ej: 21" sice="50px" minlength="1" maxlength="3">
+            </p>
+            <p>
+                <label for="Materia">Materia:</label> <br>
+                <select name="Materia" id="Materia">
+                    <option value="matematicas">matematicas</option>
+                    <option value="fisica">fisica</option>
+                    <option value="quimica">quimica</option>
+                    <option value="historia">historia</option>
+                    <option value="ingles">ingles</option>
+                </select>
+            </p>
+            <p>
+                <label for="comentario">Comentario</label><br />
+                <textarea name="comentario" id="" cols="30" rows="10"></textarea>
+            </p>
+            <p>
+                <input type="checkbox" id="terminos" value="yes">
+                <label for="terminos">Acepto los terminos y condiciones</label>
+            </p>
+            <p>
+                <input type="submit" value="registrar" />
+            </p>
+    
+        </fieldset>
+    </form>
+    </section>
+    <section id="Ascesoria">
+     <h2>Ascesoria!</h2>
+     <div class="ascesoria">
+         <p>
+             <strong>Encuentra la respuesta a tu tarea!</strong>
+         </p>
+          <form id="bodySearchForm" action="" method="post" class="navbar-form navbar-center">
+           <input id="bodySearchQ" type="text" class="form-control" name="q" placeholder="¿Qué tema buscas?">
+          </form>
+
+     </div>
+    </section>
+    <footer>
+        <div class="contenedor-footer">
+            <div class="conten-foo">
+                <h4>Telefono</h4>
+                <p>75141913</p>
+            </div>
+        
+        
+            <div class="conten-foo">
+                <h4>Email</h4>
+                <p>selenarioscoca@gmail.com </p>
+            </div>
+        
+        
+            <div class="conten-foo">
+                <h4>Localizacion</h4>
+                <p>Tarija bolivia</p>
+            </div>
+            </div>
+            <h2 class="titulo-final">&copy; Te hacemos la tarea</h2>
+    </footer>
+</body>
+</html>
